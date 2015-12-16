@@ -151,13 +151,18 @@
     NSString *urlString = [NSString stringWithFormat:@"%@%@", APIImg, movieImageName];
   
     // prepare URL for image request ~ don't block the main thread!
-    NSURL *url = [NSURL URLWithString:urlString];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    // NSURL *url = [NSURL URLWithString:urlString];
+  
+     NSURLRequest *imageRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:urlString]
+                                                   cachePolicy:NSURLRequestReturnCacheDataElseLoad
+                                               timeoutInterval:60];
+  
+    // NSURLRequest *request = [NSURLRequest requestWithURL:url];
     UIImage *placeholderImage = [UIImage imageNamed:@"PlaceHolder.png"];
   
     __weak UITableViewCell *weakCell = cell;
   
-    [cell.imageView setImageWithURLRequest:request
+    [cell.imageView setImageWithURLRequest:imageRequest
                           placeholderImage:placeholderImage
                                    success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
                                      
