@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2661221C225C4F00A427B5 /* NewsyChallengeUITests_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2661211C225C4F00A427B5 /* NewsyChallengeUITests_3.m */; };
 		6F9C8EDE1C1BB499002A4C65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C8EDD1C1BB499002A4C65 /* main.m */; };
 		6F9C8EE11C1BB499002A4C65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C8EE01C1BB499002A4C65 /* AppDelegate.m */; };
 		6F9C8EE41C1BB499002A4C65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C8EE31C1BB499002A4C65 /* ViewController.m */; };
@@ -35,6 +36,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6F2661241C225C4F00A427B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F9C8ED11C1BB498002A4C65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F9C8ED81C1BB498002A4C65;
+			remoteInfo = NewsyChallenge;
+		};
 		6F9C8EF61C1BB499002A4C65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6F9C8ED11C1BB498002A4C65 /* Project object */;
@@ -45,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F26611F1C225C4F00A427B5 /* NewsyChallengeUITests-3.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NewsyChallengeUITests-3.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2661211C225C4F00A427B5 /* NewsyChallengeUITests_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsyChallengeUITests_3.m; sourceTree = "<group>"; };
+		6F2661231C225C4F00A427B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F9C8ED91C1BB498002A4C65 /* NewsyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9C8EDD1C1BB499002A4C65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F9C8EDF1C1BB499002A4C65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,6 +110,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6F26611C1C225C4F00A427B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F9C8ED61C1BB498002A4C65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -116,11 +134,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F2661201C225C4F00A427B5 /* NewsyChallengeUITests-3 */ = {
+			isa = PBXGroup;
+			children = (
+				6F2661211C225C4F00A427B5 /* NewsyChallengeUITests_3.m */,
+				6F2661231C225C4F00A427B5 /* Info.plist */,
+			);
+			path = "NewsyChallengeUITests-3";
+			sourceTree = "<group>";
+		};
 		6F9C8ED01C1BB498002A4C65 = {
 			isa = PBXGroup;
 			children = (
 				6F9C8EDB1C1BB498002A4C65 /* NewsyChallenge */,
 				6F9C8EF81C1BB499002A4C65 /* NewsyChallengeTests */,
+				6F2661201C225C4F00A427B5 /* NewsyChallengeUITests-3 */,
 				6F9C8EDA1C1BB498002A4C65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,6 +158,7 @@
 			children = (
 				6F9C8ED91C1BB498002A4C65 /* NewsyChallenge.app */,
 				6F9C8EF51C1BB499002A4C65 /* NewsyChallengeTests.xctest */,
+				6F26611F1C225C4F00A427B5 /* NewsyChallengeUITests-3.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,6 +253,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6F26611E1C225C4F00A427B5 /* NewsyChallengeUITests-3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2661261C225C4F00A427B5 /* Build configuration list for PBXNativeTarget "NewsyChallengeUITests-3" */;
+			buildPhases = (
+				6F26611B1C225C4F00A427B5 /* Sources */,
+				6F26611C1C225C4F00A427B5 /* Frameworks */,
+				6F26611D1C225C4F00A427B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F2661251C225C4F00A427B5 /* PBXTargetDependency */,
+			);
+			name = "NewsyChallengeUITests-3";
+			productName = "NewsyChallengeUITests-3";
+			productReference = 6F26611F1C225C4F00A427B5 /* NewsyChallengeUITests-3.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		6F9C8ED81C1BB498002A4C65 /* NewsyChallenge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F9C8EFE1C1BB499002A4C65 /* Build configuration list for PBXNativeTarget "NewsyChallenge" */;
@@ -265,9 +312,14 @@
 		6F9C8ED11C1BB498002A4C65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Jaime Hernandez";
 				TargetAttributes = {
+					6F26611E1C225C4F00A427B5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6F9C8ED81C1BB498002A4C65;
+					};
 					6F9C8ED81C1BB498002A4C65 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -292,11 +344,19 @@
 			targets = (
 				6F9C8ED81C1BB498002A4C65 /* NewsyChallenge */,
 				6F9C8EF41C1BB499002A4C65 /* NewsyChallengeTests */,
+				6F26611E1C225C4F00A427B5 /* NewsyChallengeUITests-3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6F26611D1C225C4F00A427B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F9C8ED71C1BB498002A4C65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,6 +377,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6F26611B1C225C4F00A427B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2661221C225C4F00A427B5 /* NewsyChallengeUITests_3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F9C8ED51C1BB498002A4C65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,6 +424,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6F2661251C225C4F00A427B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F9C8ED81C1BB498002A4C65 /* NewsyChallenge */;
+			targetProxy = 6F2661241C225C4F00A427B5 /* PBXContainerItemProxy */;
+		};
 		6F9C8EF71C1BB499002A4C65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6F9C8ED81C1BB498002A4C65 /* NewsyChallenge */;
@@ -383,6 +456,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6F2661271C225C4F00A427B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NewsyChallengeUITests-3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JEH.NewsyChallengeUITests-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NewsyChallenge;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6F2661281C225C4F00A427B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NewsyChallengeUITests-3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JEH.NewsyChallengeUITests-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NewsyChallenge;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		6F9C8EFC1C1BB499002A4C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -424,6 +521,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				"TEST_HOST[sdk=*]" = "";
 			};
 			name = Debug;
 		};
@@ -470,6 +568,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewsyChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JEH.NewsyChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,6 +580,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewsyChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JEH.NewsyChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,10 +591,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NewsyChallengeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JEH.NewsyChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewsyChallengeTests/NewsyChallengeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsyChallenge.app/NewsyChallenge";
 			};
 			name = Debug;
@@ -503,10 +606,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NewsyChallengeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JEH.NewsyChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewsyChallengeTests/NewsyChallengeTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsyChallenge.app/NewsyChallenge";
 			};
 			name = Release;
@@ -514,6 +619,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6F2661261C225C4F00A427B5 /* Build configuration list for PBXNativeTarget "NewsyChallengeUITests-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2661271C225C4F00A427B5 /* Debug */,
+				6F2661281C225C4F00A427B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6F9C8ED41C1BB498002A4C65 /* Build configuration list for PBXProject "NewsyChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -530,6 +644,7 @@
 				6F9C8F001C1BB499002A4C65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F9C8F011C1BB499002A4C65 /* Build configuration list for PBXNativeTarget "NewsyChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +653,7 @@
 				6F9C8F031C1BB499002A4C65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

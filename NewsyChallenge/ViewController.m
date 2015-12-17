@@ -58,6 +58,7 @@
     NSDictionary *parameters = @{ @"sort_by": @"vote_average.desc",
                                   @"page": self.pageValue};
 
+  // https://github.com/AFNetworking/AFNetworking/issues/3212#issue-121606386 * added progress:nil for 3.x 
   [manager GET:urlString parameters:parameters progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
      
       // Check for paging, create it intitally for page 1 or add to it for subsiquent calls..

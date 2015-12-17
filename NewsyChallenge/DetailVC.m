@@ -9,9 +9,6 @@
 #import "DetailVC.h"
 
 @interface DetailVC ()
-@property (strong, nonatomic) IBOutlet UITextView *overViewText;
-@property (strong, nonatomic) IBOutlet UILabel *lang;
-@property (strong, nonatomic) IBOutlet UILabel *releaseDate;
 
 
 @end

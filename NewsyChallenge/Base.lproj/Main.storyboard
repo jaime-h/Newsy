@@ -154,9 +154,9 @@
                     <navigationItem key="navigationItem" title="Detail View Controller" id="1XN-H4-ml9"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="lang" destination="xMU-e8-a2G" id="3Or-Ak-cH8"/>
-                        <outlet property="overViewText" destination="nvd-AH-wvD" id="9c0-Zs-Uu1"/>
-                        <outlet property="releaseDate" destination="0aF-SS-j5e" id="HbO-RF-QjW"/>
+                        <outlet property="lang" destination="xMU-e8-a2G" id="uLG-6g-WfC"/>
+                        <outlet property="overViewText" destination="nvd-AH-wvD" id="Nto-rC-TOM"/>
+                        <outlet property="releaseDate" destination="0aF-SS-j5e" id="9pw-W4-3Ar"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jbc-7p-Nss" userLabel="First Responder" sceneMemberID="firstResponder"/>
