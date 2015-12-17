@@ -10,10 +10,6 @@
 
 @interface DetailVC : UIViewController
 
-@property (strong, nonatomic) IBOutlet UITextView *overViewText;
-@property (strong, nonatomic) IBOutlet UILabel *lang;
-@property (strong, nonatomic) IBOutlet UILabel *releaseDate;
-
 @property (strong, nonatomic) NSString *movieOverviewText;
 @property (strong, nonatomic) NSString *movieDate;
 @property (strong, nonatomic) NSString *language;
